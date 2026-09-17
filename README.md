@@ -129,24 +129,14 @@ Custom exceptions are used to handle invalid bookings, incorrect login details, 
 
 # 6. Instructions for Testing
 
-# 1. Select Register and create a new user account.
-
-# 2. Select Login and enter the registered email and password.
-
-# 3. Select View Shows to check the available shows.
-
-# 4. Select View Seats to check available and booked seats.
-
-# 5. Select Book Ticket, choose a show and an available seat, and complete the payment.
-
-# 6. Try booking an already booked seat to verify that duplicate booking is prevented.
-
-# 7. Select Find Booking and enter the booking ID to check booking details.
-
-# 8. Select Cancel Ticket and enter the booking ID to verify cancellation.
-
-# 9. Select View All Bookings to check the booking records.
-
-# 10. Select Test Concurrent Booking to verify that two threads attempting to book the same seat are handled using synchronization and only one booking succeeds.
-
-# 11. Check data/bookings.txt to verify that booking information has been stored successfully.
+1. Select Register and create a new user account.
+2. Select Login and enter the registered email and password.
+3. Select View Shows to check the available shows.
+4. Select View Seats to check available and booked seats.
+5. Select Book Ticket, choose a show and an available seat, and complete the payment.
+6. Try booking an already booked seat to verify that duplicate booking is prevented.
+7. Select Find Booking and enter the booking ID to check booking details.
+8. Select Cancel Ticket and enter the booking ID to verify cancellation.
+9. Select View All Bookings to check the booking records.
+10. Select Test Concurrent Booking to verify that two threads attempting to book the same seat are handled using synchronization and only one booking succeeds.
+11. Check data/bookings.txt to verify that booking information has been stored successfully.
